@@ -1,0 +1,107 @@
+name: Bug report
+description: Report a bug/crash with any of our mods
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: input
+    id: mod-name
+    attributes:
+      label: Mod
+      description: What mod are you having an issue with
+      placeholder: FTB Teams
+    validations:
+      required: true
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod version
+      description: >-
+        Please provide this mod version you are trying to use, please note, if
+        this is not the latest version as of posting your issue, your issue may
+        be closed with a request to update your mod version.
+      placeholder: ftb-teams-forge:1605.2.2-build.32
+    validations:
+      required: true
+  - type: input
+    id: forge-fabric-version
+    attributes:
+      label: Forge / Fabric version
+      description: >-
+        Please provide your Forge / Fabric version, this is important
+        information for allowing us to see if your modloader may be causing the
+        issue.
+      placeholder: 1.16.5 36.0.0
+    validations:
+      required: true
+  - type: input
+    id: modpack
+    attributes:
+      label: Modpack & version
+      description: >-
+        Please add the Modpack and Modpack version if applicable, if you are not
+        running a modpack, please ignore this section.
+      placeholder: FTB OceanBlock - 1.1.0
+  - type: textarea
+    id: whats-your-issue
+    attributes:
+      label: What issue are you having?
+      description: >-
+        Please best describe the issue you are having, what should be happening?
+        What is happening? Are other mods involved, etc. (You can attach
+        screenshots here and we highly recommend doing so)
+    validations:
+      required: true
+  - type: textarea
+    id: crash-log
+    attributes:
+      label: Crashlogs
+      description: >-
+        If you are having a crash, please post it here, you can add as many logs
+        as you like but please use https://pste.ch, or https://hastebin.com, or
+        https://paste.feed-the-beast.com
+      placeholder: >-
+        My crash logs! 
+        https://pste.ch, 
+        https://hastebin.com
+        https://paste.feed-the-beast.com
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: >-
+        Please provide as much information as you can in how you can get this
+        bug to happen again, if this bug can only be caused once, consider that
+        it may be a one off issue and might not need reporting. If we can not
+        reproduce an issue, we will be unable to fix the bug, so as much
+        information here will help us solve your issue.
+      placeholder: 1. I do this then
+    validations:
+      required: true
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything else to note?
+      description: >-
+        If there is any extra information you'd like to add, this is the place
+        to do so.
+  - type: markdown
+    attributes:
+      value: >-
+        _Disclaimer:_ issues with out of date mods will be closed with a request
+        to update the mod and try again, you can find the latest versions of our
+        mods on Curseforge and we highly recommend you check before you post an
+        issue. It can commonly be an issue with a **Modpack** that has not yet
+        updated to solve an issue that has already been fixed.
+
+
+        Not providing enough information will result in your issue being closed
+        with a request to add more information.
+
+
+        Issues relating to very old Minecraft versions ([see how old 1.7.10 is
+        for an example](https://howoldisminecraft1710.today/)) will be
+        considered by may not be fixed due to time constraints on our end. We
+        apologise if your issue falls into this category, we always want to keep
+        our mods running the best they can but due to time and technical
+        limitations, it my not be possible to solve your issue.
