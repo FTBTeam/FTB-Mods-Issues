@@ -1,9 +1,17 @@
 name: Feature Request
-description: template for missing feature
+description: Feature requests / feedback on any of our mods
 title: "[Feature Request]: "
 labels:
   - feature
 body:
+  - type: input
+    id: mod
+    attributes:
+      label: Mod
+      description: What mod do you want to request this feature for?
+      placeholder: FTB Teams
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Description
@@ -18,3 +26,11 @@ body:
     attributes:
       label: Describe alternatives you've considered
       description: Have you considered any alternative solutions or workarounds?
+  - type: markdown
+    attributes:
+      value: >-
+        _Disclaimer:_ we always consider every feature request but we hold the
+        final decision over what makes it into our mods and what doesn't so
+        please feel free to submit any request you think of but don't be
+        surprised if we do not accept the request. We highly value our players
+        feedback :heart:
