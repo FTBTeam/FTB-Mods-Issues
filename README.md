@@ -1,4 +1,4 @@
-<p align="center"><a href="https://feed-the-beast.com/" ><img src="/.github/meta/assets/logo.png" width="150" /></a></p>
+<p align="center"><a href="https://feed-the-beast.com/" ><img src="/.github/meta/assets/logo.svg" width="150" /></a></p>
 
 <h1 align="center" style="margin-top: 1rem;">FTB Mods Issues</h1>
 
@@ -10,4 +10,4 @@
 
 <hr><br>
 
-Wanna just have a chat about our mods? Jump on our [Discord](https://ftb.team/discord).
+Wanna just have a chat about our mods? Jump on our [Discord](https://go.ftb.team/discord).
