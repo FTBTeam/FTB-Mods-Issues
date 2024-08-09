@@ -2,7 +2,7 @@ name: Bug report
 description: Report a bug/crash with any of our mods
 title: "[Bug]: "
 labels:
-  - bug
+  - "1: Bug"
 body:
   - type: input
     id: mod-name

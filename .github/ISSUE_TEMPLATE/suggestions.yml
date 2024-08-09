@@ -2,7 +2,7 @@ name: Feature Request
 description: Feature requests / feedback on any of our mods
 title: "[Feature Request]: "
 labels:
-  - feature
+  - "2: Feature"
 body:
   - type: input
     id: mod
