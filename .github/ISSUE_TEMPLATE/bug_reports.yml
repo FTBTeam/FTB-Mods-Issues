@@ -26,9 +26,9 @@ body:
   - type: input
     id: forge-fabric-version
     attributes:
-      label: Forge / Fabric version
+      label: NeoForge / Forge / Fabric version
       description: >-
-        Please provide your Forge / Fabric version, this is important
+        Please provide your NeoForge / Forge / Fabric version, this is important
         information for allowing us to see if your modloader may be causing the
         issue.
       placeholder: 1.16.5 36.0.0
