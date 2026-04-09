@@ -58,13 +58,11 @@ body:
       label: Crashlogs
       description: >-
         If you are having a crash, please post it here, you can add as many logs
-        as you like but please use https://pste.ch, or https://hastebin.com, or
-        https://paste.feed-the-beast.com
+        as you like but please use https://mclo.gs, or https://hastebin.com
       placeholder: >-
         My crash logs! 
-        https://pste.ch, 
+        https://mclo.gs, 
         https://hastebin.com
-        https://paste.feed-the-beast.com
   - type: textarea
     id: steps-to-reproduce
     attributes:
