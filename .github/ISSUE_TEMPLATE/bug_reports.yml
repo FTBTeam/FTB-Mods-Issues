@@ -57,12 +57,13 @@ body:
     attributes:
       label: Crashlogs
       description: >-
-        If you are having a crash, please post it here, you can add as many logs
-        as you like but please use https://mclo.gs, or https://hastebin.com
+        If you are having a crash, please post it here, you can add as many logs as you like but **please** use https://mclo.gs, or https://hastebin.com
       placeholder: >-
         My crash logs! 
         https://mclo.gs, 
         https://hastebin.com
+
+        DO NOT PASTE THE LOG DIRECTLY INTO HERE
   - type: textarea
     id: steps-to-reproduce
     attributes:
